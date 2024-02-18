@@ -4,14 +4,14 @@ E-ticaret Sitesi (Kitaplar)
 
 <h6>Kitapistan, kitap tutkunlarının çevrimiçi olarak kitap satın alabileceği bir e-ticaret web sitesidir. Bu proje sadece frontend kısmını içermektedir, backend kısmı da geliştirilicektir.
 </h6>
-
+<h3>Özellikler </h3>
 <p>Sitemizde toplamda 10 sayfadan oluşmaktadır.Kullanıcılar, ana sayfa üzerinden popüler kitaplara olan kitaplara erişebilirler.Her kitap için detaylı bir ürün sayfası bulunmaktadır. Bu sayfada kitabın adı,yazarı, yayınevi, fiyatı ve açıklaması gibi bilgiler yer almaktadır.Kullanıcılar, istedikleri kitapları sepete ekleyebilir, sepetlerini görüntüleyebilir ve siparişlerini tamamlayabilirler.Ayrıca, hesap oluşturarak veya misafir olarak alışveriş yapma seçeneklerine de sahiptirler. Kitapistan, kitapseverlere geniş bir kitap yelpazesi sunmanın yanı sıra, alışveriş deneyimini kolaylaştıran kullanıcı dostu bir arayüz sağlar.</p>
 
 <h3>Admin Paneli</h3>
 
 <p>Kitapistan'ın yönetim paneli,  yöneticilerin ürünleri düzenlemesine ve yönetmesine olanak tanır. Admin paneline giriş yapmak için özel bir hesap gereklidir.</p>
 
-<h3>Özellikler</h3>
+<h3>Panel Özellikleri</h3>
 
 <strong>Ürün Yönetimi:</strong> Adminler, yeni kitap ekleyebilir, var olan kitapları düzenleyebilir ve silebilirler. Her kitap için başlık, yazar, yayınevi, fiyat, stok durumu ve açıklama gibi bilgileri düzenleyebilirler.<br>
 <strong>Sipariş Yönetimi</strong> : Adminler, site üzerinden yapılan siparişleri görüntüleyebilir, onaylayabilir, iptal edebilir veya işlem geçmişlerini kontrol edebilirler.<br>
