@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+ }
+ a{
+  text-decoration: none;
+  list-style-type: none;
+ }
+ a:hover {
+  color: aqua;
+ }
+ 
+ nav ul{
+    background-color: black;
+    height: 50px;
+    padding-top: 10px;
+  }
+ 
+ header p{
+    display: inline-block;
+    padding-left: 10px;
+    color: red ;
+    font-size: 25px;
+  }
+  
+ nav ul li{
+     display: inline-block;
+     
+ }
+ nav ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+ }
+nav ul li a:hover{
+  color: aqua;
+  list-style-type: none;
+  padding-top: 10px;
+ }
+  .sepet li a:hover{
+  color: aqua;
+  background-color:orange;
+ }
+ img{
+  border-radius: 10px;
+  padding-left: 5px;
+  position: relative;
+  bottom: -20px;
+ }
+ .img-1{
+  width: 75px;
+  height: 75px;
+  position: relative;
+  bottom: -20px;
+ }
+ .img-2{
+  width: 55px;
+  height: 55px;
+  position: relative;
+  bottom: -17px;
+ }
+ form.search {
+      display: flex;
+      position: relative;
+      bottom: 10px;
+  }
+  form.search input {
+      width: 500px;
+      height: 40px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: 500;
+      box-sizing: border-box;
+      padding: 0 15px;
+      flex: 1;
+      outline: 0;
+      margin-left: 27px;
+  }
+  form.search input:hover{
+    height: 45px;
+    transition: 0.2s;
+  } 
+  form.search button {
+      height: 40px;
+      padding: 0 30px;
+      background: #393a3b;
+      color: #fff;
+      border-radius: 4px ;
+      cursor: pointer;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      border: none;
+  }
+  form.search button:hover {
+    height: 45px;
+    background-color: beige;
+    color: #333;
+    transition: 0.2s;
+}
+
+  .container {
+     width: auto;
+     height: auto;
+     background-color:orange;
+  }
+  .nav-container {
+     margin-top: -15px;
+  }
+  .giris-uye {
+      list-style-type: none;
+      display: inline-block;
+      margin-left: 150px;
+      margin-right:50px;
+      font-size: 22px;
+      font-weight: 300;
+  }
+  .sepet {
+      list-style-type: none;
+      display: inline-block;
+      margin-right:20px;
+      font-size: 22px;
+      font-weight: 300;
+      position: relative;
+      
+  }
+
+  .sepet-resmi {
+      border-radius: 12px;
+  }
+  .sepet-ekle-button{
+     margin-left: 90px;
+     text-align: center;
+
+
+  }
+  .navbar-menu ul li:last-child {
+      margin-left: 800px;
+  }
+
+.h1{
+    padding-top: 30px;
+    background-color: black;
+    color: azure;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    height: 100px;
+  }
+.asidesol{
+    width: 7%;
+    height:600px;
+    float: left;
+    background-color: white;
+}
+.asidesag{
+    width: 7%;
+    height:600px;
+    float: right;
+    background-color: white;
+}
+
+.articlesol{
+    width: 36.5%;
+    height: 100%;
+   float: left; 
+   color: #fff;
+}
+.articlesag{
+    width: 42%;
+    height: 100%;
+    margin-left: 20%;
+    float:left;
+}
+section{
+    background-color: wheat;
+    width: 86%;
+    height: 880px;
+    overflow:auto;
+    float: left;
+    background-image: url(kütüphane.jpeg);
+}
+label{
+    margin-left: 50px;
+    display: block;
+    color: #fff;
+}
+section button[type="submit"]{
+    width: 60%;
+    height: 50px;
+    display: block;
+    margin-top: 50px;
+    border: 1px solid;
+    background: black;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    margin-left: 40px;
+  }
+ section button[type="submit"]:hover{
+    border-color: lightblue;
+    background-color: white;
+    color: black;
+    transition: .5s;
+  }
+input{
+    margin-left:50px;
+}
+#kvkkCheckbox {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+textarea{
+    margin-left: 50px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    top: 30px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 360px;
+}
+   div.sol{
+        width: 60%;
+        background-color: black;
+        height: 220px;
+        padding: 0 10 20 -50;
+        overflow: hidden;
+        display: inline-block;
+    
+   }
+   div.sol ul {
+        float: left;
+        margin-left: 70px;
+        list-style-type: none;
+   }
+   div.sol ul li{
+       margin-top: 20px;
+   }
+   div.sol ul li a{
+    color: white;
+   }
+   div.sol ul li a:hover{
+    color: aqua;
+   }
+  
+   div.sag{
+    width: 40%;
+    background-color: black;
+    height: 220px;
+    float: right;
+    overflow: hidden;
+    padding: 20px 20px 20px 150px;
+   }
+   .sag img{
+      margin-left: 15px;
+   }
+   div.alt{
+     width: 100%;
+     height: 130px;
+     padding: 10px 10px 10px 30px ;
+     overflow: hidden;
+   }
+   div.alt ul{
+    display: inline-block;
+   }
+   div.alt ul:last-child{
+    margin-left: 700px;
+   }
+   div.alt ul li{
+    display: inline-block;
+    margin-left: 20px;
+   }
+   .alt img{
+     position: relative;
+     top: -10px;
+   }
+   .ikon-img:hover{
+    border-radius: 30px;
+    transition: 0.4s;
+}
+#twit-ikon:hover{
+    border-radius: 30px;
+    transition: 0.4s;
+    background-color: #4b00ff;
+}
+.sagTaraf input,.soltaraf input{
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.sagTaraf label,.soltaraf label{
+    margin-top: 20px;
+  color:#fff;
+}

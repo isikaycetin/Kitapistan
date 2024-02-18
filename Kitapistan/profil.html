@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profil.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+     <a href="#"><img src="kitap.jpeg" alt="" class="img-1"></a>
+    <a href=""><strong><p style="text-align: center; position: relative; bottom: 12px; filter: drop-shadow(10px 7px 5px); color: black;">Kitapistan</p></strong></a>
+    
+          <form style="display: inline-block; padding-left: 25px;"  action="" method="get" class="search">
+    <input type="text" placeholder="Arama yap">
+    <button type="submit">Ara</button>
+
+    <ul class="giris-uye">
+        <li><a href="login.html" target="_blank"><strong style="font-size: 22px; position: relative; top: 11px; ">Giriş Yap</strong></a></li>
+        <li><a style="position: relative; top: 17px; " href="üyeol.html">&nbsp;&nbsp;&nbsp;&nbsp;Üye Ol</a></li>
+      </ul>
+      
+      <ul class="sepet">
+        <li>
+            <a href="#"><img src="sepetim.png" alt="" class="img-2"></a>
+            <a href="sepetim.html"><strong style="text-align: center; font-size: 18px; position: relative; bottom: 7px; ">Sepetim</strong></a>
+           
+        </li>
+      </ul>
+</form>
+</div>
+<div class="nav-container">
+      <nav class="navbar-menu">
+            <ul>
+              <li><a href="slider.html">Anasayfa</a></li>
+              <li><a href="#">Hakkımızda</a></li>
+              <li><a href="#">İletişim</a></li>
+              <li><a href="#">Çok Satanlar</a></li>
+            </ul> 
+      </nav>
+     
+    </div>
+    </header>
+<aside class="asidesol"></aside>
+<section>
+  <article>
+        <h1 class="h1"> Üye Bilgileri</h1>
+        <article class="articlesol"> 
+          <form id="uyeForm" class="soltaraf" onsubmit=" redirectToPage();">
+            <label for="Ad">Adınız:</label>
+            <input type="text" id="Ad" placeholder="Adınız">
+        
+            <label for="Soyad">Soyadınız:</label>
+            <input type="text" id="Soyad" placeholder="Soyadınız">
+        
+            <label for="Telefon">Telefon:</label>
+            <input type="number" id="Telefon" placeholder="Telefon">
+        
+            <label for="Adres">Adres:</label>
+            <textarea name="Adres" id="Adres" cols="20" rows="6"></textarea>
+        
+            <label for="E-posta">E-posta:</label>
+            <input type="email" id="E-posta" placeholder="E-posta">
+            <button type="submit">Güncelle</button>
+        </form>
+      </article>
+      <article class="articlesag">
+        <form action="" id="uyeForm" class="sagTaraf">
+          <label style="margin-top: 10px;" for="Şifre">Eski Şifreniz:</label>
+          <input type="password" id="EskiSifre" placeholder="Şifre" required>
+
+          <label for="Şifre">Yeni Şifreniz:</label>
+          <input type="password" id="Sifre" placeholder="Şifre" required>
+      
+          <label for="Şifre">Yeni Şifreniz Tekrar Giriniz:</label>
+          <input type="password" id="YeniSifre" placeholder="Şifre" required>
+      
+          <button type="submit" onclick="validatePassword();">Şifre Değiştir</button>
+        </form>
+
+        
+        </article>
+        </section>
+      <footer>
+        <div class="sol">
+              <ul>
+                 <li><a href="#">Kurumsal</a></li>
+                 <li><a href="#">Hakkımızda</a></li>
+                 <li><a href="#">Biz Kimiz</a></li>
+                 <li><a href="#">Sözleşme</a></li>
+             </ul>
+ 
+              <ul>
+                 <li><a href="#">İletişim</a></li>
+                 <li><a href="#">Yardım</a></li>
+                 <li><a href="#">Destek Hattı</a></li>
+             </ul>
+ 
+             <ul>
+                 <li><a href="üyeol.html">Üye Ol</a></li>
+                 <li><a href="#">Sık Sorulanlar</a></li>
+                 <li><a href="login.html">Üye Girişi</a></li>
+             </ul>
+        </div>
+        
+        <div class="sag">
+               <p>&nbsp;&nbsp;&nbsp;Bizi Takip Edin</p>
+               <a href="#"><img class="img-2 ikon-img" src="facebook.png" alt=""></a>
+               <a href="#"><img class="img-2" id="twit-ikon" src="twitter.png" alt=""></a>
+               <a href="#"><img class="img-2 ikon-img" src="instagram.jpeg" alt=""></a>
+               <a href="#"><img class="img-2 ikon-img" src="whatsap.jpeg" alt=""></a>
+               <br><br>
+               <h1 style="margin-right: 40%; font-size: 30px; ">+905333701456</h1>
+        </div>
+     
+       <div class="alt">
+           <h2 style="float:left; margin-left: 60px;">Ödeme Yöntemleri</h2>
+           <h2 style="display: inline-block; margin-left: 820px;">Güvenli ve Kolay Alışveriş</h2>
+           <ul>
+             <li><img class="img-2 ikon-img " src="axess.png" alt=""></li>
+             <li><img class="img-2 ikon-img" src="paraf.png" alt=""></li>
+             <li><img class="img-2 ikon-img"  src="world.png" alt=""></li>
+           </ul>
+  
+           <ul>
+             <li><img class="img-2 ikon-img" src="mastercard.png" alt=""></li>
+             <li><img class="img-2 ikon-img" src="papara.jpeg" alt=""></li>
+             <li><img class="img-2 ikon-img" src="visa.png" alt=""></li>
+           </ul>
+ 
+       </div>
+ 
+ </footer>
+
+ <script>
+  function validatePassword() {
+      var oldPassword = document.getElementById("Sifre").value;
+      var newPassword = document.getElementById("YeniSifre").value;
+      var password = document.getElementById('EskiSifre').value;
+
+      
+      if (oldPassword !== newPassword) {
+          alert("Girdiğinz şifreler eşleşmiyor, aynı olmalıdır.");
+          return false;
+      }
+      if(oldPassword === "" || newPassword === "" || password === ""){
+        alert('Tüm boşlukları doldurunuz !!');
+        return false; 
+      }
+     else{
+      alert("Şifreniz başarıyla değiştirilimiştir.")
+      return true;
+     }
+  }
+</script>
+
+<script>
+  function redirectToPage() {
+      var ad = document.getElementById("Ad").value;
+      var soyad = document.getElementById("Soyad").value;
+      var tel = document.getElementById("Telefon").value;
+      var adres = document.getElementById("Adres").value;
+      var eposta = document.getElementById("E-posta").value;
+
+      if (ad === "" || soyad === "" || tel === "" || adres === "" || eposta === "") {
+          alert('Tüm boşlukları doldurunuz !!');
+          return false;
+      } else {
+          alert('Bilgileriniz güncellenmiştir');
+          return true;
+      }
+  }
+</script>
+</body>
+</html>
+
+

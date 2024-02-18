@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kitap sayfa</title>
+    <link rel="stylesheet" href="kitapsf.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+
+     <a href="#"><img src="kitap.jpeg" alt="" class="img-1"></a>
+    <a href=""><strong><p style="text-align: center; position: relative; bottom: 30px; color: rgba(0, 0, 0, 0.992); filter: drop-shadow(10px 7px 5px);">Kitapistan</p></strong></a>
+    
+          <form style="display: inline-block; padding-left: 25px;"  action="" method="get" class="search">
+    <input type="text" placeholder="Arama yap">
+    <button type="submit">Ara</button>
+        
+    <ul class="giris-uye">
+        <li><a href="login.html"><strong style="font-size: 22px; position: relative; top: 11px;">Giriş Yap</strong></a></li>
+        <li><a style="position: relative; top: 17px;" href="üyeol.html">&nbsp;&nbsp;&nbsp;&nbsp;Üye Ol</a></li>
+      </ul>
+      
+      <ul class="sepet">
+        <li>
+            <a href="#"><img src="sepetim.png" alt="" class="img-2"></a>
+            <a href="sepetim.html"><strong style="text-align: center; font-size: 18px; position: relative; bottom: 7px;">Sepetim</strong></a>
+           
+        </li>
+      </ul>
+</form>
+</div>
+<div class="nav-container">
+      <nav class="navbar-menu">
+            <ul>
+              <li><a href="slider.html">Anasayfa</a></li>
+              <li><a href="#">Hakkımızda</a></li>
+              <li><a href="#">İletişim</a></li>
+              <li><a href="#">Çok Satanlar</a></li>
+            </ul> 
+      </nav>
+     
+    </div>
+    </header>
+  
+  <section style="width: 100%; height: 100%;">
+    <div class="container-2">
+        
+        <div class="ust-sol">
+            <img src="dervis.jpg" alt="" width="70%" height="375px" style="position: absolute; bottom: 2px; left: 50px;">
+        </div>
+        <div class="ust-sag">
+          <h1 style="text-align: center;">Sen Derviş Olamazsın</h1><br>
+          <p><strong>ISBN:</strong> #1234567</p>
+          <p><strong>Yayınevi :</strong> Timuş Yayınevleri</p>
+          <p><strong>Yazar:</strong> Mecit Ömür ÖZTÜRK</p>
+          <p><strong>Sayfa Sayısı:</strong>	240</p>
+          <p><strong>Basım Yılı:</strong> 2012</p>
+          <p><strong>Çevirmen:</strong> Işıkay ÇETİN</p>
+          <p><strong>Puan:</strong> 8</p>
+          <p><strong>Cilt Tipi:</strong>	Karton Kapak</p>
+          <br>
+         
+
+          <button style="background-color: red; border-radius: 5px; width: 130px; height: 50px;">Fiyat: 130</button>&nbsp;&nbsp;
+          <button style="background-color: wheat; border-radius: 5px; width: 50px; height: 50px; margin-left: 10px;" onclick="miktarAzalt();">-</button>
+          <button style="background-color: wheat; border-radius: 5px; width: 50px; height: 50px;"><span id="miktar">1</span></button>
+          <button style="background-color: wheat; border-radius: 5px; width: 45px; height: 50px;" onclick="miktarArtir();">+</button>
+          <button id="sepetekle" onclick="sepeteEkle();"> Sepete Ekle</button>
+          <button id="favori" onclick="favori();">Favorilerime Ekle  &nbsp;<i style="color: red; " class="fa-regular fa-heart"></i></button>
+          
+       
+        </div>
+        <div class="orta">
+            <p>İnsanın en yakınındaki ilahi sanat eseri, kendi hayatıdır. İnsan, kendi yaşadıklarında hayret edecek yönleri bulabiliyorsa, hayat öyküsünün mükemmelliği üzerine salim fikirler yürütebiliyorsa, kendiyle ilgili yeni keşifler yapabiliyorsa yaratılıştaki yerini doldurmuş ve makamına liyakat göstermiş olur. Nitekim insan, kendi ruh gemisinin kaptanıdır.
+              İnsana en çok yakışan, şartlar ne olursa olsun iyiliği, güzelliği, cömertliği ve mertliği ayakta tutmaktır. Bu hasletleri gözetmeden yaşanan bir ömür âdeta hiç yaşanmamış hükmündedir.
+              Mütemadiyen gelişen ve değişen dünya, insanın anlam arayışına nasıl bir katkı sunmakta?
+              Yangın yeri olan yüreklerimize hangi tedavi su serpmekte? 
+            </p>
+        </div>
+
+        <div class="yorum_puan">
+               <div class="yorumlar"><br>
+                    <h1>Yorumlar</h1><br><br>
+                       <h4>Yıldıray P*****</h4>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quidem!</p><br><hr size="2"><br>
+                       <h4>Işıkay Ç***</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quidem!</p><br><hr size="2"><br>
+                       <h4>Kutay Y******</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quidem!</p><br><hr size="2"><br>
+                       <h4>Melih  G******</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quidem!</p><br><hr size="2"><br>
+
+
+                       <h4>Yıldıray P*****</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quidem!</p><br><hr size="2"><br>
+                     <h4>Işıkay Ç***</h4>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quidem!</p><br><hr size="2"><br>
+                     <h4>Kutay Y******</h4>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quidem!</p><br><hr size="2"><br>
+                     <h4>Melih  G******</h4>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quidem!</p><br><hr size="2"><br>
+               </div>
+                   
+          <div class="puanlar"><br>
+              <h1>Puanlar</h1><br><br><br>
+               <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutubos"></div> <div class="kutubos"></div> <div class="kutubos"></div>
+               <br><br><br><br>
+               <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutubos"></div> <div class="kutubos"></div>
+               <br><br><br><br><br>
+               <div class="kutudolu"></div> <div class="kutubos"></div> <div class="kutubos"></div> <div class="kutubos"></div> <div class="kutubos"></div>
+               <br><br><br><br>
+               <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutudolu"></div>
+               <br><br><br><br><br>
+               <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutubos"></div> <div class="kutubos"></div> <div class="kutubos"></div>
+               <br><br><br><br>
+               <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutubos"></div> <div class="kutubos"></div>
+               <br><br><br><br><br>
+               <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutubos"></div>
+               <br><br><br><br><br>
+               <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutudolu"></div> <div class="kutubos"></div> <div class="kutubos"></div>
+               
+
+              </div>
+
+        </div>
+     
+
+    </div>
+</section>
+
+<br><br><br><br><br>
+   <footer>
+        <div class="sol">
+              <ul>
+                 <li><a href="#">Kurumsal</a></li>
+                 <li><a href="#">Hakkımızda</a></li>
+                 <li><a href="#">Biz Kimiz</a></li>
+                 <li><a href="#">Sözleşme</a></li>
+             </ul>
+ 
+              <ul>
+                 <li><a href="#">İletişim</a></li>
+                 <li><a href="#">Yardım</a></li>
+                 <li><a href="#">Destek Hattı</a></li>
+             </ul>
+ 
+             <ul>
+                 <li><a href="üyeol.html">Üye Ol</a></li>
+                 <li><a href="#">Sık Sorulanlar</a></li>
+                 <li><a href="login.html">Üye Grişi</a></li>
+             </ul>
+        </div>
+        
+        <div class="sag">
+               <p>&nbsp;&nbsp;&nbsp;Bizi Takip Edin</p>
+               <a href="#"><img class="img-2 ikon-img" src="facebook.png" alt=""></a>
+               <a href="#"><img class="img-2 ikon-img" id="twit-ikon" src="twitter.png" alt=""></a>
+               <a href="#"><img class="img-2 ikon-img" src="instagram.jpeg" alt=""></a>
+               <a href="#"><img class="img-2 ikon-img" src="whatsap.jpeg" alt=""></a>
+               <br><br><br><br>
+               <h1 style="margin-right: 40%; font-size: 25px; ">+905333701456</h1>
+        </div>
+     
+       <div class="alt">
+           <h2 style="float:left; margin-left: 60px;">Ödeme Yöntemleri</h2>
+           <h2 style="display: inline-block; margin-left: 1000px; position: relative; top: -16px;" class="footerh">Güvenli ve Kolay Alışveriş</h2>
+           <ul>
+             <li><img class="img-2 ikon-img" src="axess.png" alt="" style="border-radius: 25px;"></li>
+             <li><img class="img-2 ikon-img" src="paraf.png" alt=""></li>
+             <li><img class="img-2 ikon-img" src="world.png" alt=""></li>
+           </ul>
+  
+                   
+           <ul>
+             <li><img class="img-2 ikon-img" src="mastercard.png" alt=""></li>
+             <li><img class="img-2 ikon-img" src="papara.jpeg" alt=""></li>
+             <li><img class="img-2 ikon-img" src="visa.png" alt=""></li>
+           </ul>
+ 
+       </div>
+ 
+ </footer>
+ 
+ <script>
+  // Miktarı artırmak ve azaltmak için JavaScript fonksiyonları
+  function miktarArtir() {
+    var miktarElementi = document.getElementById('miktar');
+    var mevcutMiktar = parseInt(miktarElementi.innerHTML);
+    miktarElementi.innerHTML = mevcutMiktar + 1;
+  }
+
+  function miktarAzalt() {
+    var miktarElementi = document.getElementById('miktar');
+    var mevcutMiktar = parseInt(miktarElementi.innerHTML);
+    if (mevcutMiktar > 1) {
+      miktarElementi.innerHTML = mevcutMiktar - 1;
+    }
+ }
+</script>
+<script>
+  function sepeteEkle() {
+    alert('Ürün sepete eklendi!');
+  }
+</script>
+
+<script>
+  function favori(){
+   alert('Favorilerenize Eklendi');
+ }
+ </script>
+</body>
+</html>

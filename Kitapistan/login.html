@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitapistan Giriş Sayfası</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div class="center">
+        <img src="kullancıresmi.png" alt="" style="transform: translate(36%, 0%);">
+      <h1>Giriş Yap</h1>
+      <form id="loginForm">
+  <div class="txt_field">
+    <input type="text" name="kullaniciAdi" placeholder="Kullanıcı Adınız" required>
+    <span></span>
+  </div>
+  <div class="txt_field">
+    <input type="password" name="sifre" placeholder="Şifre" required>
+    <span></span>
+  </div>
+  <div class="pass">Şifreni mi Unuttun?</div>
+  <input id="Giriş" type="submit" value="Giriş Yap" onclick="validateForm();">
+   <div class="signup-link">Üye Değilmisiniz?<a href="üyeol.html">Üye Ol</a>
+        </div>
+        <div class="signup-link">Yönetici Girişi için <a href="admingiris.html">Yönetici Girişi</a>
+        </div>
+</form>
+
+    </div>
+
+        <script>
+          function validateForm() {
+              var kullaniciAdi = document.forms["loginForm"]["kullaniciAdi"].value;
+              var sifre = document.forms["loginForm"]["sifre"].value;
+          
+              if (kullaniciAdi === "" || sifre === "") {
+                  alert("Kullanıcı adı ve şifre alanlarını doldurun.");
+              } else {
+                  redirectToPage();
+              }
+          }
+          
+          function redirectToPage() {
+              // Düğmeyi devre dışı bırak
+              document.getElementById("Giriş").disabled = true;
+          
+              // Sayfayı yönlendir
+              window.location.href = 'kullanici.html';
+          }
+          </script>
+ </body>
+</html>

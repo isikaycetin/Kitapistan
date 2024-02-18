@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="üyeol.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+
+     <a href="#"><img src="kitap.jpeg" alt="" class="img-1"></a>
+    <a href=""><strong><p style="text-align: center; font-size: 27px; position: relative; bottom: 12px; filter: drop-shadow(10px 7px 5px); color: black;">Kitapistan</p></strong></a>
+    
+          <form style="display: inline-block; padding-left: 20px;"  action="" method="get" class="search">
+    <input type="text" placeholder="Arama yap">
+    <button type="submit">Ara</button>
+
+    <ul class="giris-uye">
+        <li><a href="login.html"><strong style="font-size: 22px; position: relative; top: 11px; left: -5px; ">Giriş Yap</strong></a></li>
+        <li><a style="position: relative; top: 17px; " href="üyeol.html">&nbsp;&nbsp;&nbsp;&nbsp;Üye Ol</a></li>
+      </ul>
+      
+      <ul class="sepet">
+        <li>
+            <a href="#"><img src="sepetim.png" alt="" class="img-2"></a>
+            <a href="sepetim.html"><strong style="text-align: center; font-size: 18px; position: relative; bottom: 7px;  ">Sepetim</strong></a>
+           
+        </li>
+      </ul>
+</form>
+</div>
+<div class="nav-container">
+      <nav class="navbar-menu">
+            <ul>
+              <li><a href="slider.html">Anasayfa</a></li>
+              <li><a href="#">Hakkımızda</a></li>
+              <li><a href="#">İletişim</a></li>
+              <li><a href="#">Çok Satanlar</a></li>
+            </ul> 
+      </nav>
+     
+    </div>
+    </header>
+<aside class="asidesol"></aside>
+      <section>
+              <h1 class="h1">Yeni Üye Formu</h1>
+              <article>
+                <div class="soltaraf"></div> 
+                <form id="uyeForm" onsubmit="return redirectToPage();">
+                  <label for="Ad">Adınız:</label>
+                  <input type="text" id="Ad" placeholder="Adınız" required >
+              
+                  <label for="Soyad">Soyadınız:</label>
+                  <input type="text" id="Soyad" placeholder="Soyadınız" required >
+              
+                  <label for="Şehir">Şehir:</label>
+                  <input type="text" id="Şehir" placeholder="Şehir" required>
+              
+                  <label for="İlçe">İlçe:</label>
+                  <input type="text" id="İlçe" placeholder="İlçe" required>
+              
+                  <label for="Mahalle">Mahalle:</label>
+                  <input type="text" id="Mahalle" placeholder="Mahalle"required >
+              
+                  <label for="Telefon">Telefon:</label>
+                  <input type="text" id="Telefon" placeholder="Telefon"required >
+              
+                  <label for="Adres">Adres:</label>
+                  <textarea name="Adres" id="Adres" cols="30" rows="6" placeholder="Adres" required></textarea>
+              
+                  <label for="E-posta">E-posta:</label>
+                  <input type="email" id="E-posta" placeholder="E-posta" required>
+              
+                  <label for="Şifre">Şifre Oluştur:</label>
+                  <input type="password" id="Sifre" placeholder="Şifre" required>
+              
+                  <input type="checkbox" id="kvkkCheckbox" required>
+                  <label for="kvkkCheckbox"><span style="font-size: 22px; color: lightblue ">KVKK</span> Aydınlatma Metnini Okudum, Kabul Ediyorum</label>
+              
+                  <button id="üyeol" type="submit" onclick="redirectToPage();">Üye Ol</button>
+              </form>
+              
+              <script>
+                  function redirectToPage() {
+                      // Formu kontrol et
+                      var form = document.getElementById("uyeForm");
+                      if (form.checkValidity()) {
+                          // Düğmeyi devre dışı bırak
+                          document.getElementById("üyeol").disabled = true;
+              
+                          // Sayfayı yönlendir
+                          window.location.href = 'kullanici.html';
+              
+                          // Formun sunucuya gönderilmesini engelle
+                          return false;
+                      } else {
+                          // Form geçerli değilse submit işlemini engelle
+                          alert("Lütfen Tüm Bilgilerinizi Doldurunuz");
+                          return false;
+                      }
+                  }
+              </script>
+              
+              </article>
+      </section>
+
+      <footer>
+        <div class="sol">
+              <ul>
+                 <li><a href="#">Kurumsal</a></li>
+                 <li><a href="#">Hakkımızda</a></li>
+                 <li><a href="#">Biz Kimiz</a></li>
+                 <li><a href="#">Sözleşme</a></li>
+             </ul>
+ 
+              <ul>
+                 <li><a href="#">İletişim</a></li>
+                 <li><a href="#">Yardım</a></li>
+                 <li><a href="#">Destek Hattı</a></li>
+             </ul>
+ 
+             <ul>
+                 <li><a href="üyeol.html">Üye Ol</a></li>
+                 <li><a href="#">Sık Sorulanlar</a></li>
+                 <li><a href="login.html">Üye Girişi</a></li>
+             </ul>
+        </div>
+        
+        <div class="sag">
+               <p>&nbsp;&nbsp;&nbsp;Bizi Takip Edin</p>
+               <a href="#"><img class="img-2 ikon-img" src="facebook.png" alt=""></a>
+               <a href="#"><img class="img-2 " id="twit-ikon" src="twitter.png" alt=""></a>
+               <a href="#"><img class="img-2 ikon-img" src="instagram.jpeg" alt=""></a>
+               <a href="#"><img class="img-2 ikon-img" src="whatsap.jpeg" alt=""></a>
+               <br><br>
+               <h1 style="margin-right: 40%; font-size: 30px; ">+905333701456</h1>
+        </div>
+     
+       <div class="alt">
+           <h2 style="float:left; margin-left: 60px;">Ödeme Yöntemleri</h2>
+           <h2 style="display: inline-block; margin-left: 820px;">Güvenli ve Kolay Alışveriş</h2>
+           <ul>
+             <li><img class="img-2 ikon-img" src="axess.png" alt=""></li>
+             <li><img class="img-2 ikon-img" src="paraf.png" alt=""></li>
+             <li><img class="img-2 ikon-img" src="world.png" alt=""></li>
+           </ul>
+  
+           <ul>
+             <li><img class="img-2 ikon-img" src="mastercard.png" alt=""></li>
+             <li><img class="img-2 ikon-img" src="papara.jpeg" alt=""></li>
+             <li><img class="img-2 ikon-img" src="visa.png" alt=""></li>
+           </ul>
+ 
+       </div>
+ 
+ </footer>
+
+</body>
+</html>

@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  }
+  h1{
+  font-size: 22px;
+  text-align: center;
+  }
+  a{
+  text-decoration: none;
+  list-style-type: none;
+  }
+  a:hover {
+  color: aqua;
+  }  
+  
+  nav ul{
+    background-color: black;
+    height: 50px;
+    padding-top: 10px;
+  }
+  
+  header p{
+    display: inline-block;
+    padding-left: 10px;
+    color: red ;
+    font-size: 25px;
+  }
+  
+  nav ul li{
+     display: inline-block;
+     
+  }
+  nav ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  }
+  nav ul li a:hover{
+  color: aqua;
+  list-style-type: none;
+  padding-top: 10px;
+  }
+  .sepet li a:hover{
+  color: aqua;
+  background-color:orange;
+  }
+  img{
+  border-radius: 10px;
+  padding-left: 5px;
+  position: relative;
+  bottom: -20px;
+  }
+  .img-1{
+  width: 75px;
+  height: 75px;
+  position: relative;
+  bottom: 5px;
+  }
+  .img-2{
+  width: 55px;
+  height: 55px;
+  position: relative;
+  bottom: -17px;
+  }
+  form.search {
+      display: flex;
+      position: relative;
+      bottom: 29px;
+      left: 20px;
+  }
+  form.search input {
+      width: 500px;
+      height: 40px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: 500;
+      box-sizing: border-box;
+      padding: 0 15px;
+      flex: 1;
+      outline: 0;
+      margin-left: 27px;
+  }
+  form.search input:hover{
+    height: 45px;
+    transition: 0.2s;
+  } 
+  form.search button {
+      height: 40px;
+      padding: 0 30px;
+      background: #393a3b;
+      color: #fff;
+      border-radius: 4px ;
+      cursor: pointer;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      border: none;
+  }
+  form.search button:hover {
+    height: 45px;
+    background-color: beige;
+    color: #333;
+    transition: 0.2s;
+  }
+  
+  .container {
+    padding-top: 15px;
+     width: auto;
+     height: 120px;
+     background-color:orange;
+  }
+  .nav-container {
+     margin-top: -15px;
+  }
+  .giris-uye {
+      list-style-type: none;
+      display: inline-block;
+      margin-left: 150px;
+      margin-right:50px;
+      font-size: 22px;
+      font-weight: 300;
+  }
+  
+  .sepet {
+      list-style-type: none;
+      display: inline-block;
+      margin-right:20px;
+      font-size: 22px;
+      font-weight: 300;
+      position: relative;
+      
+  }
+  
+  .sepet-resmi {
+      border-radius: 12px;
+  }
+  .sepet-ekle-button{
+     margin-left: 90px;
+     text-align: center;
+  
+  
+  }
+  .navbar-menu ul li:last-child {
+      margin-left: 800px;
+  }
+
+.container-2{
+    width: 100%;
+    height: 1500px;
+    background-color:lightblue ;
+    position: relative;
+
+}
+
+.container-2{
+    width: 100%;
+    height: 1500px;
+    background-color:white ;
+    position: relative;
+    display: block;
+
+}
+
+.ust-sol{
+    position: absolute;
+    float: left;
+    left: 160px;
+    top: 60px;
+    width: 28%;
+    height: 380px;
+  
+}
+.ust-sag{
+    width: 45%;
+    height: 390px;
+    position: absolute;
+    left: 620px;
+    top: 60px;
+    float: right;
+    border: 3px solid;
+    color: black;
+    line-height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+#favori{
+  float: right; 
+  position: relative; 
+  top: 0px; 
+  left: -7px; 
+  border-radius: 5px;
+  background-color: orange; height: 50px;
+}
+
+#favori:hover{
+  height: 51px;
+  transition: 0.2s;
+  background-color: darkorange;
+
+
+}
+#sepetekle:hover{
+  margin-right: 5px;
+  width: 132px;
+  height: 52px;
+  transition: 0.2s;
+  background-color: 		#E57373;
+}
+#sepetekle{
+  background-color: red; 
+  border-radius: 5px; 
+  width: 130px; 
+  height: 50px; 
+  margin-left: 20px;
+}
+.orta{
+     width: 74%;
+     height: 200px;
+     background-color: bisque;
+     position: absolute;
+     top: 500px;
+     left: 193px;
+     padding: 25px;
+     text-align: center;
+   
+}
+
+.yorum_puan {
+    width: 74%;
+    height: 1000px;
+    position: absolute;
+    top: 770px;
+    left: 193px;
+    background-color: bisque;
+}
+.yorumlar{
+    float: left;
+      width: 50%;
+      color: black;
+      padding-left: 10px;
+}
+
+.puanlar{
+      float: left;
+      width: 24%;
+      color: black;
+      margin-left: 225px;
+}
+.puanlar h1{
+  margin-left: -185px;
+  position: relative;
+  left: 32px;
+}
+
+.kutudolu{
+  width: 25px;
+  height: 25px;
+  border-radius: 25%;
+  border-color: orange;
+  background-color: red;
+  display: inline-block;
+}
+.kutubos{
+  width: 25px;
+  height: 25px;
+  border-radius: 25%;
+  border-color: orange;
+  background-color: white;
+  display: inline-block;
+}
+
+  footer {
+    position: relative;
+    bottom: -30px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 360px;
+    clear: both;
+    
+  }
+   div.sol{
+        width: 60%;
+        background-color: black;
+        height: 220px;
+        padding: 0 10 20 -50;
+        overflow: hidden;
+        display: inline-block;
+    
+   }
+   div.sol ul {
+        float: left;
+        margin-left: 70px;
+        list-style-type: none;
+   }
+   div.sol ul li{
+       margin-top: 20px;
+   }
+   div.sol ul li a{
+    color: white;
+   }
+   div.sol ul li a:hover{
+    color: aqua;
+   }
+  
+   div.sag{
+    width: 40%;
+    background-color: black;
+    height: 220px;
+    float: right;
+    overflow: hidden;
+    padding: 20px 30px 20px 150px;
+   }
+   .sag img{
+      margin-left: 15px;
+   }
+   div.alt{
+     width: 100%;
+     height: 130px;
+     padding: 10px 0px 10px 30px ;
+     overflow: hidden;
+   }
+   div.alt ul{
+    display: inline-block;
+   }
+   div.alt ul:last-child{
+    margin-left: 700px;
+   }
+   div.alt ul li{
+    display: inline-block;
+    margin-left: 20px;
+   }
+   div.alt ul li img{
+    position: relative;
+    top: 13px;
+    left: 32px;
+   }
+   .alt img{
+     position: relative;
+     top: -10px;
+   } 
+   .footer h{
+    margin-bottom: 20px;
+   }
+   .ikon-img:hover{
+    border-radius: 30px;
+    transition: 0.4s;
+  }
+  #twit-ikon:hover{
+    border-radius: 30px;
+    transition: 0.4s;
+    background-color: #4b00ff;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,467 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+aside li a:hover {
+color: aqua;
+}  
+header nav a:hover {
+color: aqua;
+}  
+nav ul {
+    background-color: black;
+    height: 50px;
+    padding-top: 10px;
+}
+
+header p {
+    display: inline-block;
+    padding-left: 10px;
+    color: red;
+    font-size: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.sepet li a:hover {
+    color: aqua;
+    background-color: orange;
+}
+
+img {
+    border-radius: 10px;
+    padding-left: 5px;
+    position: relative;
+    bottom: -20px;
+}
+
+.img-1 {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    bottom: -20px;
+}
+
+.img-2 {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    bottom: -17px;
+}
+
+form.search {
+    display: flex;
+    position: relative;
+    bottom: 10px;
+}
+
+form.search input {
+    width: 500px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 0 15px;
+    flex: 1;
+    outline: 0;
+    margin-left: 27px;
+}
+
+form.search input:hover {
+    height: 45px;
+    transition: 0.2s;
+}
+
+form.search button {
+    height: 40px;
+    padding: 0 30px;
+    background: #393a3b;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+form.search button:hover {
+    height: 45px;
+    background-color: beige;
+    color: #333;
+    transition: 0.2s;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    background-color: orange;
+}
+
+.nav-container {
+    margin-top: -15px;
+}
+
+.giris-uye {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.sepet {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: 300;
+    position: relative;
+
+}
+
+.sepet-resmi {
+    border-radius: 12px;
+}
+
+.sepet-ekle-button {
+    margin-left: 90px;
+    text-align: center;
+
+
+}
+
+.navbar-menu ul li:last-child {
+    margin-left: 800px;
+}
+
+aside {
+    float: left;
+    width: 17%;
+    background-color: #C1BBA8;
+    height: 1470px;
+    margin-top: -12px;
+    line-height: 50px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 0px;
+    overflow: auto;
+}
+
+aside h1 {
+    text-align: center;
+    font-size: 16px;
+}
+
+aside img {
+    width: 75%;
+    height: 150px;
+    margin-left: 30px;
+}
+
+section {
+    width: 83%;
+    margin-right: 0px;
+}
+
+.article {
+    width: 1500px;
+    height: 450px;
+    background-color: #fff;
+}
+
+.numaralandırma {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+}
+
+.numaralandırma a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.numaralandırma a.active {
+    background-color: #4b00ff;
+    color: white;
+    border: 1px solid #4b00ff;
+}
+
+.numaralandırma a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+
+.kitaplar {
+    width: 20%;
+    height: 400px;
+    background-color: bisque;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.kitaplar h2{
+text-align: center;
+}
+
+
+.kitapresim {
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.dropbtn {
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+.dropdown {
+
+    margin-left: 1317px;
+    margin-top: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: green;
+    border-radius: 10px;
+}
+
+#a:hover {
+    background-color: bisque;
+}
+
+#buton:hover {
+    color: white;
+}
+
+div.kitaplar button {
+    background-color: orange;
+    color: white;
+    width: 160px;
+    height: 25px;
+    position: relative;
+    right: 22px;
+    bottom: 5px;
+    border-radius: 5px;
+}
+
+div.kitaplar button:hover{
+    background-color:chocolate;
+    width:165px;
+    height: 28px;
+    transition: 0.2s;
+    }
+    img.kitapresim:hover{
+    width: 52%;
+    height: 205px;
+    transition: 0.2s;
+    
+    }
+    .kitaplar:hover{
+        background-color:#C1BBA8;
+      }
+
+div.kitaplar {
+    overflow: hidden;
+}
+
+footer {
+    position: relative;
+    bottom: -30px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 360px;
+}
+
+div.sol {
+    width: 60%;
+    background-color: black;
+    height: 220px;
+    padding: 0 10 20 -50;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+div.sol ul {
+    float: left;
+    margin-left: 70px;
+    list-style-type: none;
+}
+
+div.sol ul li {
+    margin-top: 20px;
+}
+
+div.sol ul li a {
+    color: white;
+}
+
+div.sol ul li a:hover {
+    color: aqua;
+}
+
+div.sag {
+    width: 40%;
+    background-color: black;
+    height: 220px;
+    float: right;
+    overflow: hidden;
+    padding: 20px 20px 20px 150px;
+}
+
+.sag img {
+    margin-left: 15px;
+}
+
+div.alt {
+    width: 100%;
+    height: 130px;
+    padding: 10px 10px 10px 30px;
+    overflow: hidden;
+}
+
+div.alt ul {
+    display: inline-block;
+}
+
+div.alt ul:last-child {
+    margin-left: 700px;
+}
+
+div.alt ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.alt img {
+    position: relative;
+    top: -10px;
+}
+.main{
+width: 80.9%;
+height: 63vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.slider{
+width: 800px;
+height: 500px;
+position: relative;
+}
+.slider img {
+width: 100%;
+height: 90%;
+border-radius: 7px;
+}
+.buton{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.buton i {
+color: #fff;
+}
+.buton i:hover{
+color: black;
+}
+
+.ikon-img:hover{
+    border-radius: 30px;
+    transition: 0.4s;
+  }
+  #twit-ikon:hover{
+    border-radius: 30px;
+    transition: 0.4s;
+    background-color: #4b00ff;
+  }
+article a{
+    color: #333;
+  }
+article a>h2:nth-child(3), a>h2:nth-child(4) {
+    color: #333;
+    font-size: 13px;
+}
+
+article a>h2:last-child{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
